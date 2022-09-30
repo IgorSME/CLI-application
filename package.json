@@ -1,0 +1,27 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorSME/CLI-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorSME/CLI-application/issues"
+  },
+  "homepage": "https://github.com/IgorSME/CLI-application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "uuid": "^9.0.0"
+  }
+}
